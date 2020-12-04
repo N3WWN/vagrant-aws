@@ -10,5 +10,6 @@ group :development do
 end
 
 group :plugins do
-  gem "vagrant-aws" , path: "."
+#  gem "vagrant-aws" , path: "."
+  gemspec
 end
